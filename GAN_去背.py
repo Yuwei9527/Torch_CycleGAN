@@ -3,41 +3,7 @@
 Created on Mon Jun 28 15:36:01 2021
 
 @author: aiuser
-"""
-
-#import os
-#from PIL import Image
-#
-#save_dir = 'C:/Users/aiuser/Desktop/lai/pytorch-CycleGAN-and-pix2pix-master/3_GAN_final_path/exp2_rm_BG/' 
-#os.makedirs(save_dir, exist_ok=True)      
-#root_img = 'C:/Users/aiuser/Desktop/lai/pytorch-CycleGAN-and-pix2pix-master/1_GAN_resize_path/exp2/'
-#root_mask = 'C:/Users/aiuser/Desktop/lai/pytorch-CycleGAN-and-pix2pix-master/2_GAN_no_background/exp2_rm_BG/'
-#path_img = os.listdir(root_img)
-#        
-#loc = path_img
-#for i in range(0, len(loc)):
-#    img = Image.open(root_img+loc[i]).convert('RGBA')
-#    
-#    print(img.size)
-#    
-#    img2 = Image.open(root_mask+loc[i]).convert('RGBA') # 20210625_fixed
-#        
-#    print(img2.mode)
-#
-#    # Transparency
-#    newImage = []
-#    for item in img2.getdata():
-#        if item[:3] == (0, 0, 0):
-#            newImage.append((0, 0, 0, 0))
-#        else:
-#            newImage.append(item)
-#    
-#    img2.putdata(newImage)
-#
-#    img.paste(img2) # 前：大  後:小 (x,y)
-#
-#    img.save(save_dir+loc[i])
-    
+"""  
 #%%
 #2021/1026 for dcgan
 import os
